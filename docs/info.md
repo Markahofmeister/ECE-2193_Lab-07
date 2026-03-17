@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project uses the TinyTapeout chain to build a digital multipler circuit from verilog code.
 
 ## How to test
 
-Explain how to use your project
+After testing in a simulator, compile and run in this GitHub repository.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is used, this is for a bespoke custom chip.
