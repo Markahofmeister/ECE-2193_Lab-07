@@ -9,11 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This project uses the TinyTapeout chain to build a digital multipler circuit from verilog code.
+This project uses the TinyTapeout chain to build a digital multipler circuit from verilog code. It takes Verilog files and runs them through a series of tests:
+- DOCS - tests if documents are up to date
+- FPGA - tests if the verilog is able to run on an FPGA
+- GDS - tests if the verilog code is synthesizable
+- TEST - checks code functionality using a test bench
 
 ## How to test
 
-After testing in a simulator, compile and run in this GitHub repository.
+After testing in a simulator, compile and run in this GitHub repository by going to the Actions tab and checking to see that all tests have passed for the most recent commits. 
 
 ## External hardware
 
